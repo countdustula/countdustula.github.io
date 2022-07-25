@@ -19,9 +19,9 @@ allSections.addEventListener('click', (e) =>{
    if(id){
     //remove selected from the other btns
     sectBtns.forEach((btn) =>{
-        btn.classList.remove('active');
+        btn.classList.remove('active-btn');
     })
-    e.target.classList.add('active');
+    e.target.classList.add('active-btn');
 
     //hide other sections
     sections.forEach((section) =>{
